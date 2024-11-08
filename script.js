@@ -21,8 +21,8 @@ const prevSlide = () => {
 
 // بدء السلايدر التلقائي بعد 3 ثوانٍ
 setTimeout(() => {
-    setInterval(nextSlide, 1000); // تغيير الصورة كل 3 ثوانٍ
-}, 1000);
+    setInterval(nextSlide, 3000); // تغيير الصورة كل 3 ثوانٍ
+}, 3000);
 
 // Get user's country and flag
 fetch('https://ipinfo.io/json?token=3aa49852512ae7')

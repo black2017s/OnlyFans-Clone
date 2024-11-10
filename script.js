@@ -39,11 +39,11 @@ fetch('https://ipinfo.io/json?token=3aa49852512ae7')
         document.getElementById('flag').src = `https://flagcdn.com/64x48/${data.country.toLowerCase()}.png`;    })
     .catch(error => console.error('Error fetching location:', error));
 
-    fetch('https://ipinfo.io/json?token=3aa49852512ae7')
-    .then(response => response.json())
-    .then(data => {
-        document.getElementById('country3').innerText = data.country;
-        document.getElementById('flag2').src = `https://flagcdn.com/64x48/${data.country.toLowerCase()}.png`;    })
-    .catch(error => console.error('Error fetching location:', error));
+    // fetch('https://ipinfo.io/json?token=3aa49852512ae7')
+    // .then(response => response.json())
+    // .then(data => {
+    //     document.getElementById('country3').innerText = data.country;
+    //     document.getElementById('flag2').src = `https://flagcdn.com/64x48/${data.country.toLowerCase()}.png`;    })
+    // .catch(error => console.error('Error fetching location:', error));
 
     
